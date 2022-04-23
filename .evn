@@ -1,0 +1,1 @@
+MONGO_URL=mongodb+srv://admin:admin@cluster-alpha.b2ra9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
