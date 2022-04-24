@@ -14,6 +14,9 @@ const ReviewsSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    userName: {
+      type: String,
+    },
   },
   { timestamps: true }
 );

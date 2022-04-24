@@ -28,6 +28,12 @@ const createReview = async (req, res) => {
   res.status(200).json({ msg: "ok" });
 };
 
+const getReviews = async (req, res) => {
+  const reviews = await Reviews.find({ productId: req.params.id });
+  res.status(200).json({ reviews });
+};
+
 module.exports = {
   createReview,
+  getReviews,
 };
